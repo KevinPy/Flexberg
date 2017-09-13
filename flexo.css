@@ -237,7 +237,7 @@ Licence: CC-BY-SA-3.0
         max-width: 100%;
     }
 
-    [class*="-l"]:not([class*="grid-auto"]) {
+    [class$="-l"]:not([class*="grid-auto"]) {
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         -webkit-box-flex: 0;
@@ -286,7 +286,7 @@ Licence: CC-BY-SA-3.0
         max-width: 100%;
     }
 
-    [class*="-m"]:not([class*="grid-auto"]) {
+    [class$="-m"]:not([class*="grid-auto"]) {
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         -webkit-box-flex: 0;
@@ -335,7 +335,7 @@ Licence: CC-BY-SA-3.0
         max-width: 100%;
     }
 
-    [class*="-s"]:not([class*="grid-auto"]) {
+    [class$="-s"]:not([class*="grid-auto"]) {
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         -webkit-box-flex: 0;
